@@ -142,13 +142,13 @@ export default function OurStorySection() {
           </Stack>
 
           {/* Right Image */}
-          <Flex justify="center">
+          <Flex bg="gray.50" justify="center">
             <Image
               rounded={'2xl'}
-              shadow="2xl"
+              // shadow="2xl"
               alt={'Oil Refining Plant'}
               src={
-                '/assets/banners/Thirumala_industries_oil_recycle.jpg'
+                '/assets/banners/thirumala_industries_oil.png'
               }
               objectFit={'cover'}
               maxH={{ base: '300px', md: '420px' }}

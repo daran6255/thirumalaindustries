@@ -60,7 +60,7 @@ export default function TeamSection() {
             _hover={{ transform: 'scale(1.05)', transition: 'all 0.3s ease-in-out' }}
           >
             <Image
-              src="/assets/team/md.jpg"
+              src="/assets/team/Nagarjun_CEO_Thirumala_Industries-v1.2.jpeg"
               alt="Managing Director"
               objectFit="cover"
               w="100%"
