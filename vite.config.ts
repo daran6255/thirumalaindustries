@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import TurboSnap from "vite-plugin-turbosnap";
 
 export default defineConfig({
-    plugins: [
+  plugins: [
     react(),
     TurboSnap({
       rootDir: process.cwd(),
@@ -11,9 +11,11 @@ export default defineConfig({
   ],
   server: {
     host: true,
-    allowedHosts: [],
-    proxy: {
-    },
+    allowedHosts: [
+      'thirumalaindustries.com',
+      'www.thirumalaindustries.com',
+    ],
+    proxy: {},
   },
   // base: "/thirumalaindustries/",
 })
