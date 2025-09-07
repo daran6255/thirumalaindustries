@@ -113,7 +113,7 @@ const services: Service[] = [
   {
     title: "Spent Solvent Management",
     short: "Safe collection, treatment, and recycling of spent solvents using EST and TNPCB-compliant systems.",
-    full: "Spent solvents are used or contaminated solvents from industries like paints, pharmaceuticals, electronics, and printing that can no longer serve their original purpose. They often contain flammable, toxic, or corrosive compounds, requiring specialized handling. At Atlas Corporation, we provide comprehensive spent solvent management, including safe collection in sealed MS barrels or IBCs, recovery through fractional distillation, and waste-to-energy co-processing for non-recyclable residues. Our TNPCB and CPCB-compliant processes ensure zero discharge, full documentation support, and sustainable recycling practices, helping industries prevent contamination, reduce fire risks, and operate in an eco-friendly and legally compliant manner.",
+    full: "Spent solvents are used or contaminated solvents from industries such as paints, pharmaceuticals, electronics, and printing. They often contain flammable or toxic compounds that need careful handling. Thirumala Industries provides safe collection, solvent recovery through fractional distillation, and eco-friendly disposal. Our TNPCB and CPCB-compliant processes ensure legal compliance, reduced fire risks, and sustainable operations.",
     icon: FaFlask,
     category: "Spent Solvent",
   },
