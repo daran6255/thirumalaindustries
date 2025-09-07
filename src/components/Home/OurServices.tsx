@@ -34,6 +34,7 @@ import {
   FaExclamationTriangle,
   FaArrowRight,
   FaLeaf,
+  FaFlask,
 } from "react-icons/fa";
 import { IconType } from "react-icons";
 
@@ -108,6 +109,13 @@ const services: Service[] = [
     full: "We provide ship-specific hazardous waste disposal, including oils, sludge, chemicals, and other marine pollutants. Our marine waste solutions comply with IMO and MARPOL standards, ensuring that shipping companies operate sustainably and avoid penalties while protecting marine ecosystems.",
     icon: FaShip,
     category: "Maritime",
+  },
+  {
+    title: "Spent Solvent Management",
+    short: "Safe collection, treatment, and recycling of spent solvents using EST and TNPCB-compliant systems.",
+    full: "Spent solvents are used or contaminated solvents from industries like paints, pharmaceuticals, electronics, and printing that can no longer serve their original purpose. They often contain flammable, toxic, or corrosive compounds, requiring specialized handling. At Atlas Corporation, we provide comprehensive spent solvent management, including safe collection in sealed MS barrels or IBCs, recovery through fractional distillation, and waste-to-energy co-processing for non-recyclable residues. Our TNPCB and CPCB-compliant processes ensure zero discharge, full documentation support, and sustainable recycling practices, helping industries prevent contamination, reduce fire risks, and operate in an eco-friendly and legally compliant manner.",
+    icon: FaFlask,
+    category: "Spent Solvent",
   },
 ];
 
