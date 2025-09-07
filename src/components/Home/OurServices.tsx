@@ -124,7 +124,15 @@ export default function ServicesSection() {
   const [selectedService, setSelectedService] = useState<Service | null>(null);
   const [activeCategory, setActiveCategory] = useState<string>("All");
 
-  const categories = ["All", "Oil Management", "E-Waste", "Hazardous Waste", "Maritime"];
+  const categories = [
+  "All",
+  "Oil Management",
+  "E-Waste",
+  "Hazardous Waste",
+  "Maritime",
+  "Spent Solvent",
+];
+
 
   const filteredServices =
     activeCategory === "All"
@@ -207,8 +215,10 @@ export default function ServicesSection() {
                     <Icon as={FaLaptop} />
                   ) : category === "Hazardous Waste" ? (
                     <Icon as={FaExclamationTriangle} />
-                  ) : (
+                  ) : category === "Maritime" ? (
                     <Icon as={FaShip} />
+                  ) : (
+                    <Icon as={FaFlask} />
                   )
                 }
               >
@@ -255,7 +265,9 @@ export default function ServicesSection() {
                         ? "purple"
                         : service.category === "Hazardous Waste"
                         ? "red"
-                        : "teal"
+                        : service.category === "Maritime"
+                        ? "teal"
+                        : "orange"
                     }
                     variant="solid"
                     rounded="full"
@@ -317,7 +329,9 @@ export default function ServicesSection() {
                           ? "purple"
                           : selectedService.category === "Hazardous Waste"
                           ? "red"
-                          : "teal"
+                          : selectedService.category === "Maritime"
+                          ? "teal"
+                          : "orange"
                       }
                       variant="solid"
                       rounded="full"
